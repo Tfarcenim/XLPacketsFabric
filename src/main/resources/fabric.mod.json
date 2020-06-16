@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "xlpackets",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "XLPackets",
+  "description": "Bigger Packet Size Limit",
   "authors": [
     "Tfarecnim"
   ],
@@ -18,11 +18,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "tfar.example.ExampleMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "xlpackets.mixins.json"
   ],
 
   "depends": {

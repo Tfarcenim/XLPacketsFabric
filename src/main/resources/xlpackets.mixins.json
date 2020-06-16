@@ -1,11 +1,11 @@
 {
   "required": true,
-  "package": "net.fabricmc.example.mixin",
+  "package": "tfar.xlpackets.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "PacketInflaterMixin"
   ],
   "client": [
-    "ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1
