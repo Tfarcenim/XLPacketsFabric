@@ -3,12 +3,12 @@
   "package": "tfar.xlpackets.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "PacketByteBufMixin",
-    "PacketInflaterMixin"
+    "CompressionDecoderMixin",
+    "PackeEncoderMixin",
+    "PacketByteBufMixin"
   ],
   "client": [
   ],
   "injectors": {
-    "defaultRequire": 1
   }
 }
