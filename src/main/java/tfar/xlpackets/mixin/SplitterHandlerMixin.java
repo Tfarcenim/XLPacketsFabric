@@ -19,7 +19,7 @@ public class SplitterHandlerMixin {
 	 * @reason Maybe inflate packet
 	 */
 	@Overwrite
-	protected void decode(ChannelHandlerContext ctx, ByteBuf buf, List<Object> objects){
+	public void decode(ChannelHandlerContext ctx, ByteBuf buf, List<Object> objects){
 		buf.markReaderIndex();
 		byte[] bs = new byte[4];
 
