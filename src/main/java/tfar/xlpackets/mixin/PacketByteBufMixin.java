@@ -10,6 +10,6 @@ public class PacketByteBufMixin {
 
 	@ModifyConstant(method = "readNbt()Lnet/minecraft/nbt/NbtCompound;",constant = @Constant(longValue = 2097152L))
 	private long xlPackets(long old) {
-		return 2000000000L;
+		return 268435456L;
 	}
 }
